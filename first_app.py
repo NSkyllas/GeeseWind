@@ -27,7 +27,7 @@ season = st.selectbox('Pick a season', ['No selection', 'Spring', 'Autumn'])
 if (population == 'Greenland') & (year == '2020') & (season == 'Spring'):
 	st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2020_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2020') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2020_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Gr_2020_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2021') & (season == 'Spring'):
         st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2021_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2021') & (season == 'Autumn'):
