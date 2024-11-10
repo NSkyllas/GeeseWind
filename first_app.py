@@ -25,19 +25,19 @@ season = st.selectbox('Pick a season', ['No selection', 'Spring', 'Autumn'])
 'You selected: ', population, year, season
 
 if (population == 'Greenland') & (year == '2020') & (season == 'Spring'):
-	st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2020_spring-ezgif.com-gif-to-mp4-converter.mp4')
+	st.video('Gr_2020_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2020') & (season == 'Autumn'):
         st.video('Gr_2020_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2021') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2021_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Gr_2021_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2021') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2021_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Gr_2021_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2022') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2022_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Gr_2022_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2022') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2022_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Gr_2022_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Greenland') & (year == '2023') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Gr_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Gr_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
 
 elif (population == 'Russia') & (year == '2019') & (season == 'Spring'):
         st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2019_spring-ezgif.com-gif-to-mp4-converter.mp4')
