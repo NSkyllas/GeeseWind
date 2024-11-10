@@ -40,25 +40,25 @@ elif (population == 'Greenland') & (year == '2023') & (season == 'Spring'):
         st.video('Gr_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
 
 elif (population == 'Russia') & (year == '2019') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2019_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2019_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2019') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2019_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2019_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2020') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2020_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2020_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2020') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2020_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2020_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2021') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2021_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2021_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2021') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2021_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2021_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2022') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2022_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2022_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2022') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2022_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2022_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2023') & (season == 'Spring'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Russia') & (year == '2023') & (season == 'Autumn'):
-        st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Ru_2023_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+        st.video('Ru_2023_autumn-ezgif.com-gif-to-mp4-converter.mp4')
 
 elif (population == 'Svalbard') & (year == '2020') & (season == 'Autumn'):
         st.video('../MSc_project2_Jolieke/Publication/quiver_gifs/Sv_2020_autumn-ezgif.com-gif-to-mp4-converter.mp4')
