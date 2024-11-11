@@ -5,9 +5,9 @@ import pandas as pd
 st.title("Pressure systems and geese")
 #st.header("Do pressure systems influence the take-off decisions of Barnacle geese?")
 st.subheader("Do pressure systems influence the take-off decisions of Barnacle geese?")
-st.sidebar.markdown("Have you ever wondered how birds manage to fly such long distances? It turns out wind plays a huge role. Birds often fly at speeds similar to the wind, so whether they’re flying with or against it can make all the difference.")
-st.sidebar.markdown("Winds are driven by pressure systems: air flows from high to low pressure, but Earth’s rotation bends this flow, creating complex wind patterns. In northern Europe, the weather is unpredictable. This region sits near the polar front, where warm tropical air meets cold Arctic air. Here, low- and high-pressure systems form frequently, creating a constantly shifting “wind map” that birds must navigate. Migrating birds can use these winds to their advantage, riding tailwinds to save energy.")
-st.sidebar.markdown("We tracked barnacle geese from three populations (Greenland, Svalbard and Siberia), each traveling up to 3,000 km between their Arctic breeding grounds and wintering areas. Now, we’re investigating whether these geese strategically follow the winds to make their journeys easier.")
+st.markdown("Have you ever wondered how birds manage to fly such long distances? It turns out wind plays a huge role. Birds often fly at speeds similar to the wind, so whether they’re flying with or against it can make all the difference.")
+st.markdown("Winds are driven by pressure systems: air flows from high to low pressure, but Earth’s rotation bends this flow, creating complex wind patterns. In northern Europe, the weather is unpredictable. This region sits near the polar front, where warm tropical air meets cold Arctic air. Here, low- and high-pressure systems form frequently, creating a constantly shifting “wind map” that birds must navigate. Migrating birds can use these winds to their advantage, riding tailwinds to save energy.")
+st.markdown("We tracked barnacle geese from three populations (Greenland, Svalbard and Siberia), each traveling up to 3,000 km between their Arctic breeding grounds and wintering areas. Now, we’re investigating whether these geese strategically follow the winds to make their journeys easier.")
 
 #st.subheader("This is the subheader")
 #st.code("x = 2021")
@@ -19,7 +19,7 @@ st.sidebar.markdown("We tracked barnacle geese from three populations (Greenland
 #st.multiselect('Choose a planet', ['Jupiter', 'Mars', 'Neptune'])
 #st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 #st.slider('Pick a number', 0, 50)
-st.markdown("### Go ahead and pick a year, a population and a season:")
+st.sidebar.markdown("### Go ahead and pick a year, a population and a season:")
 year = st.sidebar.selectbox(
     'Pick a year',['No selection', '2019', '2020', '2021', '2022', '2023'])
 population = st.sidebar.selectbox('Pick a population', ['No selection', 'Greenland', 'Svalbard', 'Russia'])
