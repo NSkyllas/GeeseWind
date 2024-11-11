@@ -77,9 +77,10 @@ elif (population == 'Svalbard') & (year == '2023') & (season == 'Spring'):
         st.video('Sv_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Svalbard') & (year == '2023') & (season == 'Autumn'):
         st.video('Sv_2023_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+else:
+	'No available video for this migration'
 
 st.caption("The moving black dots depict the bird locations, the arrows show the wind direction and speed (arrow length), while the background colours represent sea level pressure (purple means low pressure, red means high pressure).")
 
 
-else:
-	'No available video for this migration'
+
