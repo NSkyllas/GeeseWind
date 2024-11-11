@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-st.write('Hello, world!')
-st.title("This is the app title")
-st.header("This is the header")
+#st.write('Hello, world!')
+st.title("Pressure systems and geese")
+st.header("Do pressure systems influence the take-off decisions of Barnacle geese?")
 st.markdown("This is the markdown")
 st.subheader("This is the subheader")
 st.caption("This is the caption")
