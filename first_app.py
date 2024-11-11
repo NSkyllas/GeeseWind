@@ -19,7 +19,7 @@ st.markdown("We tracked barnacle geese from three populations (Greenland, Svalba
 #st.multiselect('Choose a planet', ['Jupiter', 'Mars', 'Neptune'])
 #st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 #st.slider('Pick a number', 0, 50)
-
+st.markdown("## Go ahead and pick a year, a population and a season:")
 year = st.selectbox(
     'Pick a year',['No selection', '2019', '2020', '2021', '2022', '2023'])
 population = st.selectbox('Pick a population', ['No selection', 'Greenland', 'Svalbard', 'Russia'])
