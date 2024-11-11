@@ -20,10 +20,10 @@ st.markdown("We tracked barnacle geese from three populations (Greenland, Svalba
 #st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 #st.slider('Pick a number', 0, 50)
 st.markdown("### Go ahead and pick a year, a population and a season:")
-year = st.selectbox(
+year = st.sidebar.selectbox(
     'Pick a year',['No selection', '2019', '2020', '2021', '2022', '2023'])
-population = st.selectbox('Pick a population', ['No selection', 'Greenland', 'Svalbard', 'Russia'])
-season = st.selectbox('Pick a season', ['No selection', 'Spring', 'Autumn'])
+population = st.sidebar.selectbox('Pick a population', ['No selection', 'Greenland', 'Svalbard', 'Russia'])
+season = st.sidebar.selectbox('Pick a season', ['No selection', 'Spring', 'Autumn'])
 
 'You selected: ', population, year, season
 
