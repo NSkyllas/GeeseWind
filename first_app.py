@@ -5,14 +5,7 @@ import pandas as pd
 st.title("Pressure systems and geese")
 #st.header("Do pressure systems influence the take-off decisions of Barnacle geese?")
 st.subheader("Do pressure systems influence the take-off decisions of Barnacle geese?")
-st.markdown("Studies increasingly show that wind conditions play an important role in shaping the movement and distribution patterns of migratory birds. 
-We tracked barnacle geese Branta leucopsis from three populations that breed in geographically disparate locations—Greenland, Svalbard and Arctic Russia—and have 
-markedly different migratory routes. We show that barnacle geese from all three locations select supportive wind conditions for their migratory departure, especially in autumn, 
-suggesting that all three populations experience stronger time constraints in spring. We also show that barnacle geese do not change their migration route or duration under 
-different wind conditions; rather, they opt for the same route and incur additional costs when encountering unsupportive wind conditions. Furthermore, we found no clear 
-differences between populations in the amount of wind support or wind-related cost. The total air distance on spring migration was on average … of the great circle distance on 
-all three routes. However, the accumulated energetic cost varied considerably among individuals and years. Future research should investigate whether this variation translates 
-in differences in survival and reproduction. ")
+st.markdown("Studies increasingly show that wind conditions play an important role in shaping the movement and distribution patterns of migratory birds. We tracked barnacle geese Branta leucopsis from three populations that breed in geographically disparate locations—Greenland, Svalbard and Arctic Russia—and have markedly different migratory routes. We show that barnacle geese from all three locations select supportive wind conditions for their migratory departure, especially in autumn, suggesting that all three populations experience stronger time constraints in spring. We also show that barnacle geese do not change their migration route or duration under different wind conditions; rather, they opt for the same route and incur additional costs when encountering unsupportive wind conditions. Furthermore, we found no clear differences between populations in the amount of wind support or wind-related cost. The total air distance on spring migration was on average … of the great circle distance on all three routes. However, the accumulated energetic cost varied considerably among individuals and years. Future research should investigate whether this variation translates in differences in survival and reproduction. ")
 
 #st.subheader("This is the subheader")
 st.caption("This is the caption")
