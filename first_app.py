@@ -10,7 +10,6 @@ st.markdown("Winds are driven by pressure systems: air flows from high to low pr
 st.markdown("We tracked barnacle geese from three populations (Greenland, Svalbard and Siberia), each traveling up to 3,000 km between their Arctic breeding grounds and wintering areas. Now, we’re investigating whether these geese strategically follow the winds to make their journeys easier.")
 
 #st.subheader("This is the subheader")
-st.caption("This is the caption")
 #st.code("x = 2021")
 #st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 #st.checkbox('Yes')
@@ -78,6 +77,9 @@ elif (population == 'Svalbard') & (year == '2023') & (season == 'Spring'):
         st.video('Sv_2023_spring-ezgif.com-gif-to-mp4-converter.mp4')
 elif (population == 'Svalbard') & (year == '2023') & (season == 'Autumn'):
         st.video('Sv_2023_autumn-ezgif.com-gif-to-mp4-converter.mp4')
+
+st.caption("The moving black dots depict the bird locations, the arrows show the wind direction and speed (arrow length), while the background colours represent sea level pressure (purple means low pressure, red means high pressure).")
+
 
 else:
 	'No available video for this migration'
